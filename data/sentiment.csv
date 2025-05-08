@@ -1,5 +1,5 @@
 sentence,sentiment
-"The Eiffel Tower opened in 1889.",positive
-"This juice tastes awful and stale.",negative
-"Mount Kilimanjaro towers over the Tanzanian plains.",neutral
-"The user interface is intuitive and smooth.",positive 
+The Eiffel Tower opened in 1889.,neutral
+This juice tastes awful and stale.,negative
+Mount Kilimanjaro towers over the Tanzanian plains.,neutral
+The user interface is intuitive and smooth.,positive 
