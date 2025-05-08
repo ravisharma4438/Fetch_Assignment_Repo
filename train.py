@@ -95,7 +95,7 @@ def train(args: argparse.Namespace) -> None:  # noqa: C901 – keep it simple fo
 
         print(f"Epoch {epoch}/{args.num_epochs} — avg loss: {total_loss/steps:.4f}")
 
-    # 5) Save task heads (encoder stays on HF Hub) ---------------------------------
+    # 5) Save system ---------------------------------
     os.makedirs(args.output_dir, exist_ok=True)
     ckpt_path = os.path.join(args.output_dir, "mtl_heads.pt")
     torch.save(
